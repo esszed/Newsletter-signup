@@ -26,10 +26,10 @@ app.post('/', (req, res) => {
   }
   let jsonData = JSON.stringify(data)
   const options = {
-    url: 'https://us20.api.mailchimp.com/3.0/lists/dc8d4559fd',
+    url: '',
     method: 'POST',
     headers: {
-      Authorization: 'stepan 36804bdb7e2a951c50e95126fc00b95a-us20'
+      Authorization: ''
     },
     body: jsonData
   }
